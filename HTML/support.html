@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Support & Services - BDG</title>
+    <link rel="stylesheet" href="/CSS/all.min.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Images/Logo.jpg">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-info">
+                    <span><i class="fas fa-phone"></i> +1-800-BDG-TECH</span>
+                    <span><i class="fas fa-envelope"></i> info@bdg-tech.com</span>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="/" class="nav-logo-link">
+                        <img src="/Images/Logo.jpg" alt="VEICHI Distributor Logo" style="display: block;">
+                        <p class="logo-name" style="margin-top: 8px; text-align: left;">Business Development Group
+                        </p>
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="/HTML/products.html" class="nav-link">Products</a>
+
+                        </li>
+                        <li class="nav-item"><a href="/HTML/solutions.html" class="nav-link">Solutions</a></li>
+                        <li class="nav-item"><a href="/HTML/support.html" class="nav-link active">Support</a></li>
+                        <li class="nav-item"><a href="/HTML/about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="/HTML/contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Support Overview Section -->
+    <section class="support-overview">
+        <div class="container">
+            <div class="overview-header">
+                <div class="header-content">
+                    <h1>Technical Support & Services</h1>
+                    <p>Comprehensive support solutions for your VEICHI automation systems</p>
+                    <div class="support-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Technical Support</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Customer Satisfaction</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2Hr</div>
+                            <div class="stat-label">Response Time</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-visual">
+                    <div class="support-illustration">
+                        <div class="support-center">
+                            <i class="fas fa-headset"></i>
+                            <span>BDG Support</span>
+                        </div>
+                        <div class="support-service" data-service="installation">
+                            <i class="fas fa-tools"></i>
+                            <span>Installation</span>
+                        </div>
+                        <div class="support-service" data-service="training">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Training</span>
+                        </div>
+                        <div class="support-service" data-service="maintenance">
+                            <i class="fas fa-wrench"></i>
+                            <span>Maintenance</span>
+                        </div>
+                        <div class="support-service" data-service="monitoring">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Categories -->
+    <section class="service-categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Support Services</h2>
+                <p>Complete lifecycle support for your VEICHI automation systems</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-category="technical-support">
+                    <div class="service-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>24/7 Technical Support</h3>
+                    <p>Round-the-clock technical assistance from certified VEICHI specialists</p>
+                    <ul class="service-features">
+                        <li>Phone and email support</li>
+                        <li>Remote diagnostics</li>
+                        <li>Emergency response</li>
+                        <li>Multilingual support</li>
+                    </ul>
+                    <button class="service-btn" onclick="showServiceDetails('technical-support')">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card" data-category="installation">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Installation & Commissioning</h3>
+                    <p>Professional installation and system commissioning by certified engineers</p>
+                    <ul class="service-features">
+                        <li>Site assessment</li>
+                        <li>System installation</li>
+                        <li>Performance testing</li>
+                        <li>Documentation</li>
+                    </ul>
+                    <button class="service-btn" onclick="showServiceDetails('installation')">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card" data-category="training">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Training & Education</h3>
+                    <p>Comprehensive training programs for operators and maintenance personnel</p>
+                    <ul class="service-features">
+                        <li>On-site training</li>
+                        <li>Online courses</li>
+                        <li>Certification programs</li>
+                        <li>Custom curricula</li>
+                    </ul>
+                    <button class="service-btn" onclick="showServiceDetails('training')">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card" data-category="maintenance">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Maintenance & Repair</h3>
+                    <p>Preventive maintenance and repair services to maximize system uptime</p>
+                    <ul class="service-features">
+                        <li>Preventive maintenance</li>
+                        <li>Emergency repairs</li>
+                        <li>Component replacement</li>
+                        <li>System upgrades</li>
+                    </ul>
+                    <button class="service-btn" onclick="showServiceDetails('maintenance')">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card" data-category="monitoring">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Remote Monitoring</h3>
+                    <p>Advanced remote monitoring and predictive maintenance solutions</p>
+                    <ul class="service-features">
+                        <li>Real-time monitoring</li>
+                        <li>Predictive analytics</li>
+                        <li>Alert notifications</li>
+                        <li>Performance reports</li>
+                    </ul>
+                    <button class="service-btn" onclick="showServiceDetails('monitoring')">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <div class="service-card" data-category="spare-parts">
+                    <div class="service-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3>Spare Parts & Warranty</h3>
+                    <p>Genuine VEICHI spare parts and comprehensive warranty coverage</p>
+                    <ul class="service-features">
+                        <li>Genuine parts only</li>
+                        <li>Fast delivery</li>
+                        <li>Warranty coverage</li>
+                        <li>Inventory management</li>
+                    </ul>
+                    <button class="service-btn" onclick="showServiceDetails('spare-parts')">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details -->
+    <section class="service-details-section" id="service-details">
+        <div class="container">
+            <!-- Technical Support Details -->
+            <div class="service-details" id="technical-support-details" style="display: none;">
+                <div class="details-header">
+                    <div class="details-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="details-title">
+                        <h2>24/7 Technical Support</h2>
+                        <p>Expert technical assistance whenever you need it</p>
+                    </div>
+                </div>
+
+                <div class="details-content">
+                    <div class="support-channels">
+                        <h3>Support Channels</h3>
+                        <div class="channels-grid">
+                            <div class="channel-item">
+                                <i class="fas fa-phone"></i>
+                                <h4>Phone Support</h4>
+                                <p>Direct line to certified technicians</p>
+                                <span class="contact-info">+1-800-BDG-TECH</span>
+                            </div>
+                            <div class="channel-item">
+                                <i class="fas fa-envelope"></i>
+                                <h4>Email Support</h4>
+                                <p>Detailed technical assistance</p>
+                                <span class="contact-info">support@bdg-tech.com</span>
+                            </div>
+                            <div class="channel-item">
+                                <i class="fas fa-comments"></i>
+                                <h4>Live Chat</h4>
+                                <p>Instant messaging support</p>
+                                <span class="contact-info">Available 24/7</span>
+                            </div>
+                            <div class="channel-item">
+                                <i class="fas fa-desktop"></i>
+                                <h4>Remote Access</h4>
+                                <p>Direct system diagnostics</p>
+                                <span class="contact-info">Secure connection</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="support-process">
+                        <h3>Support Process</h3>
+                        <div class="process-steps">
+                            <div class="step-item">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Issue Reporting</h4>
+                                    <p>Contact us through your preferred channel</p>
+                                </div>
+                            </div>
+                            <div class="step-item">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Initial Assessment</h4>
+                                    <p>Our experts analyze the issue and provide initial guidance</p>
+                                </div>
+                            </div>
+                            <div class="step-item">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Resolution</h4>
+                                    <p>Step-by-step solution with follow-up confirmation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <button class="contact-btn" onclick="requestSupport('Technical Support')">
+                        <i class="fas fa-headset"></i>
+                        Contact Support
+                    </button>
+                </div>
+            </div>
+
+            <!-- Installation Details -->
+            <div class="service-details" id="installation-details" style="display: none;">
+                <div class="details-header">
+                    <div class="details-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="details-title">
+                        <h2>Installation & Commissioning</h2>
+                        <p>Professional system deployment and optimization</p>
+                    </div>
+                </div>
+
+                <div class="details-content">
+                    <div class="installation-phases">
+                        <h3>Installation Process</h3>
+                        <div class="phases-timeline">
+                            <div class="phase-item">
+                                <div class="phase-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="phase-content">
+                                    <h4>Site Survey</h4>
+                                    <p>Comprehensive site assessment and planning</p>
+                                    <ul>
+                                        <li>Environmental conditions</li>
+                                        <li>Power requirements</li>
+                                        <li>Space constraints</li>
+                                        <li>Safety considerations</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="phase-item">
+                                <div class="phase-icon">
+                                    <i class="fas fa-hammer"></i>
+                                </div>
+                                <div class="phase-content">
+                                    <h4>Installation</h4>
+                                    <p>Professional equipment installation and wiring</p>
+                                    <ul>
+                                        <li>Mechanical installation</li>
+                                        <li>Electrical connections</li>
+                                        <li>Network configuration</li>
+                                        <li>Safety systems</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="phase-item">
+                                <div class="phase-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="phase-content">
+                                    <h4>Commissioning</h4>
+                                    <p>System testing and performance optimization</p>
+                                    <ul>
+                                        <li>Functional testing</li>
+                                        <li>Performance validation</li>
+                                        <li>Parameter optimization</li>
+                                        <li>Documentation handover</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <button class="contact-btn" onclick="requestSupport('Installation & Commissioning')">
+                        <i class="fas fa-calendar-alt"></i>
+                        Schedule Installation
+                    </button>
+                </div>
+            </div>
+
+            <!-- Training Details -->
+            <div class="service-details" id="training-details" style="display: none;">
+                <div class="details-header">
+                    <div class="details-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="details-title">
+                        <h2>Training & Education</h2>
+                        <p>Comprehensive training programs for optimal system operation</p>
+                    </div>
+                </div>
+
+                <div class="details-content">
+                    <div class="training-programs">
+                        <h3>Training Programs</h3>
+                        <div class="programs-grid">
+                            <div class="program-card">
+                                <i class="fas fa-user-cog"></i>
+                                <h4>Operator Training</h4>
+                                <p>Basic operation and monitoring skills</p>
+                                <div class="program-details">
+                                    <span class="duration">Duration: 2 days</span>
+                                    <span class="level">Level: Beginner</span>
+                                </div>
+                            </div>
+                            <div class="program-card">
+                                <i class="fas fa-tools"></i>
+                                <h4>Maintenance Training</h4>
+                                <p>Preventive maintenance and troubleshooting</p>
+                                <div class="program-details">
+                                    <span class="duration">Duration: 3 days</span>
+                                    <span class="level">Level: Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="program-card">
+                                <i class="fas fa-code"></i>
+                                <h4>Programming Training</h4>
+                                <p>Advanced programming and configuration</p>
+                                <div class="program-details">
+                                    <span class="duration">Duration: 5 days</span>
+                                    <span class="level">Level: Advanced</span>
+                                </div>
+                            </div>
+                            <div class="program-card">
+                                <i class="fas fa-certificate"></i>
+                                <h4>Certification Program</h4>
+                                <p>Official VEICHI certification</p>
+                                <div class="program-details">
+                                    <span class="duration">Duration: 1 week</span>
+                                    <span class="level">Level: Professional</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="training-formats">
+                        <h3>Training Formats</h3>
+                        <div class="formats-list">
+                            <div class="format-item">
+                                <i class="fas fa-building"></i>
+                                <div>
+                                    <h4>On-site Training</h4>
+                                    <p>Training at your facility with your equipment</p>
+                                </div>
+                            </div>
+                            <div class="format-item">
+                                <i class="fas fa-laptop"></i>
+                                <div>
+                                    <h4>Online Training</h4>
+                                    <p>Interactive online courses and webinars</p>
+                                </div>
+                            </div>
+                            <div class="format-item">
+                                <i class="fas fa-school"></i>
+                                <div>
+                                    <h4>Training Center</h4>
+                                    <p>Hands-on training at our facility</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <button class="contact-btn" onclick="requestSupport('Training & Education')">
+                        <i class="fas fa-graduation-cap"></i>
+                        Enroll in Training
+                    </button>
+                </div>
+            </div>
+
+            <!-- Maintenance Details -->
+            <div class="service-details" id="maintenance-details" style="display: none;">
+                <div class="details-header">
+                    <div class="details-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="details-title">
+                        <h2>Maintenance & Repair</h2>
+                        <p>Comprehensive maintenance services to ensure optimal performance</p>
+                    </div>
+                </div>
+
+                <div class="details-content">
+                    <div class="maintenance-plans">
+                        <h3>Maintenance Plans</h3>
+                        <div class="plans-grid">
+                            <div class="plan-card">
+                                <div class="plan-header">
+                                    <h4>Basic Plan</h4>
+                                    <div class="plan-price">$299/month</div>
+                                </div>
+                                <ul class="plan-features">
+                                    <li>Quarterly inspections</li>
+                                    <li>Basic cleaning</li>
+                                    <li>Performance reports</li>
+                                    <li>Phone support</li>
+                                </ul>
+                            </div>
+                            <div class="plan-card featured">
+                                <div class="plan-header">
+                                    <h4>Professional Plan</h4>
+                                    <div class="plan-price">$599/month</div>
+                                </div>
+                                <ul class="plan-features">
+                                    <li>Monthly inspections</li>
+                                    <li>Preventive maintenance</li>
+                                    <li>Priority support</li>
+                                    <li>Spare parts included</li>
+                                    <li>Performance optimization</li>
+                                </ul>
+                            </div>
+                            <div class="plan-card">
+                                <div class="plan-header">
+                                    <h4>Enterprise Plan</h4>
+                                    <div class="plan-price">$999/month</div>
+                                </div>
+                                <ul class="plan-features">
+                                    <li>Weekly monitoring</li>
+                                    <li>Predictive maintenance</li>
+                                    <li>24/7 emergency support</li>
+                                    <li>All parts included</li>
+                                    <li>System upgrades</li>
+                                    <li>Dedicated engineer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <button class="contact-btn" onclick="requestSupport('Maintenance & Repair')">
+                        <i class="fas fa-wrench"></i>
+                        Choose Maintenance Plan
+                    </button>
+                </div>
+            </div>
+
+            <!-- Monitoring Details -->
+            <div class="service-details" id="monitoring-details" style="display: none;">
+                <div class="details-header">
+                    <div class="details-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="details-title">
+                        <h2>Remote Monitoring</h2>
+                        <p>Advanced monitoring and predictive maintenance solutions</p>
+                    </div>
+                </div>
+
+                <div class="details-content">
+                    <div class="monitoring-features">
+                        <h3>Monitoring Capabilities</h3>
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-chart-line"></i>
+                                <h4>Real-time Analytics</h4>
+                                <p>Live performance monitoring and data visualization</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-bell"></i>
+                                <h4>Smart Alerts</h4>
+                                <p>Intelligent notifications for potential issues</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-brain"></i>
+                                <h4>Predictive Analytics</h4>
+                                <p>AI-powered failure prediction and prevention</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>Mobile Access</h4>
+                                <p>Monitor your systems from anywhere</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="monitoring-dashboard">
+                        <h3>Dashboard Features</h3>
+                        <div class="dashboard-preview">
+                            <div class="dashboard-item">
+                                <i class="fas fa-tachometer-alt"></i>
+                                <span>System Performance</span>
+                            </div>
+                            <div class="dashboard-item">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <span>Alert Management</span>
+                            </div>
+                            <div class="dashboard-item">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Historical Data</span>
+                            </div>
+                            <div class="dashboard-item">
+                                <i class="fas fa-calendar-check"></i>
+                                <span>Maintenance Schedule</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <button class="contact-btn" onclick="requestSupport('Remote Monitoring')">
+                        <i class="fas fa-eye"></i>
+                        Start Monitoring
+                    </button>
+                </div>
+            </div>
+
+            <!-- Spare Parts Details -->
+            <div class="service-details" id="spare-parts-details" style="display: none;">
+                <div class="details-header">
+                    <div class="details-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <div class="details-title">
+                        <h2>Spare Parts & Warranty</h2>
+                        <p>Genuine VEICHI parts and comprehensive warranty coverage</p>
+                    </div>
+                </div>
+
+                <div class="details-content">
+                    <div class="parts-categories">
+                        <h3>Available Parts</h3>
+                        <div class="categories-grid">
+                            <div class="category-item">
+                                <i class="fas fa-microchip"></i>
+                                <h4>Control Modules</h4>
+                                <p>CPU modules, I/O cards, communication modules</p>
+                            </div>
+                            <div class="category-item">
+                                <i class="fas fa-cog"></i>
+                                <h4>Drive Components</h4>
+                                <p>Power modules, control boards, cooling fans</p>
+                            </div>
+                            <div class="category-item">
+                                <i class="fas fa-plug"></i>
+                                <h4>Cables & Connectors</h4>
+                                <p>Communication cables, power cables, connectors</p>
+                            </div>
+                            <div class="category-item">
+                                <i class="fas fa-display"></i>
+                                <h4>HMI Components</h4>
+                                <p>Touch screens, displays, keypads</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="warranty-info">
+                        <h3>Warranty Coverage</h3>
+                        <div class="warranty-grid">
+                            <div class="warranty-item">
+                                <div class="warranty-period">2 Years</div>
+                                <div class="warranty-type">Standard Warranty</div>
+                                <p>All VEICHI products</p>
+                            </div>
+                            <div class="warranty-item">
+                                <div class="warranty-period">3 Years</div>
+                                <div class="warranty-type">Extended Warranty</div>
+                                <p>Available for purchase</p>
+                            </div>
+                            <div class="warranty-item">
+                                <div class="warranty-period">24Hr</div>
+                                <div class="warranty-type">Express Replacement</div>
+                                <p>Critical components</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-cta">
+                    <button class="contact-btn" onclick="requestSupport('Spare Parts & Warranty')">
+                        <i class="fas fa-shopping-cart"></i>
+                        Order Parts
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Contact -->
+    <section class="support-contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get Support Now</h2>
+                    <p>Our expert team is ready to assist you with any technical challenges</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Emergency Hotline</h4>
+                                <p>+1-800-BDG-TECH</p>
+                                <span>Available 24/7</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email Support</h4>
+                                <p>support@bdg-tech.com</p>
+                                <span>Response within 2 hours</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Service Centers</h4>
+                                <p>Nationwide coverage</p>
+                                <span>Find nearest location</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-support-form">
+                    <h3>Quick Support Request</h3>
+                    <!-- Google Form Embed or Link -->
+                    <div class="google-form-embed">
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSerRHEmqHQIDvcJWeJZ9HwSH1ms0xfYQJjWX6UIHcYkFWkLww/viewform?embedded=true"
+                            width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                        <p style="margin-top: 1em; text-align: center;">
+                            If the form does not load, <a
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSerRHEmqHQIDvcJWeJZ9HwSH1ms0xfYQJjWX6UIHcYkFWkLww/viewform?usp=sharing&ouid=106194449731465733968"
+                                target="_blank" rel="noopener">click here to open the support form in a new tab</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Enhanced Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info Section -->
+                <div class="footer-section company-info">
+                    <div class="footer-logo">
+                        <div class="logo-container">
+                            <div class="logo-icon">
+                                <img src="/Images/Logo.jpg" alt="">
+                            </div>
+                            <div class="logo-text">
+                                <h3>Business Development Group</h3>
+                                <p>Authorized VEICHI Distributor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="company-description">
+                        Leading distributor of VEICHI industrial automation solutions with comprehensive
+                        technical support and service across Egypt and the MENA region.
+                    </p>
+                    <div class="founder-info">
+                        <div class="founder-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="founder-details">
+                            <h4>Founded by Ayman Hussein</h4>
+                            <p>Visionary leader in industrial automation</p>
+                        </div>
+                    </div>
+                    <div class="company-social">
+                        <a href="#" class="social-link linkedin" aria-label="BDG LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link facebook" aria-label="BDG Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link youtube" aria-label="BDG YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://wa.me/201055901888" class="social-link snapchat" aria-label="BDG Snapchat">
+                            <i class="fab fa-snapchat"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="/HTML/about.html">About BDG</a></li>
+                        <li><a href="/HTML/solutions.html">Our Solutions</a></li>
+                        <li><a href="/HTML/support.html">Technical Support</a></li>
+                        <li><a href="/HTML/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Section -->
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="/HTML/solutions.html">Industrial Automation</a></li>
+                        <li><a href="/HTML/solutions.html">Expert Consultation</a></li>
+                        <li><a href="/HTML/solutions.html">Installation & Setup</a></li>
+                        <li><a href="/HTML/solutions.html">Training Programs</a></li>
+                        <li><a href="/HTML/solutions.html">Maintenance Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Section -->
+                <div class="footer-section newsletter-section">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to receive the latest VEICHI product updates and industry insights.</p>
+
+                    <div class="newsletter-form">
+                        <!-- Embedded Google Form -->
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSd2GVz5-tLS6WiUIf3CNTOEIlxqn8yk76JhMO-29Dp08WKn5g/viewform?embedded=true"
+                            width="100%" height="420" frameborder="0" marginheight="0" marginwidth="0"
+                            style="background: #fff; border-radius: 8px;">Loading…</iframe>
+                    </div>
+
+                    <div class="newsletter-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-bell"></i>
+                            <span>Product Updates</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Industry Insights</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Event Notifications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Developer Section -->
+            <div class="developer-section">
+                <div class="developer-content">
+                    <div class="developer-info">
+                        <div class="developer-avatar">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="developer-details">
+                            <h4>Website Development</h4>
+                            <p>Developed with love by <strong>Mohamed Negm</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="developer-social">
+                        <a href="https://www.linkedin.com/in/mohamed-negm-018317355/" class="dev-social-link linkedin"
+                            target="_blank" aria-label="Developer LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.facebook.com/mohamed.fawzynajm" class="dev-social-link facebook"
+                            target="_blank" aria-label="Developer Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://github.com/Mohamedfawzynegm" class="dev-social-link github" target="_blank"
+                            aria-label="Developer GitHub">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+
+                    <div class="developer-contact">
+                        <a class="dev-contact-btn" href="mailto:negm161208@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            Contact Developer
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        <p>&copy; 2025 Business Development Group (BDG). All rights reserved.</p>
+                        <p class="founder-credit">Founded & Owned by <strong>Ayman Hussein</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/JS/support.js"></script>
+    <script src="/JS/go-up.js"></script>
+    <script src="/JS/footer.js"></script>
+</body>
+
+</html>

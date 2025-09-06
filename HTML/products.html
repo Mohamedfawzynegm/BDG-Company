@@ -1,0 +1,1646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEICHI Products - BDG Business Development Group</title>
+    <link rel="stylesheet" href="/CSS/all.min.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Images/Logo.jpg">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-info">
+                    <span><i class="fas fa-phone"></i> +1-800-BDG-TECH</span>
+                    <span><i class="fas fa-envelope"></i> info@bdg-tech.com</span>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="/" class="nav-logo-link">
+                        <img src="/Images/Logo.jpg" alt="VEICHI Distributor Logo" style="display: block;">
+                        <p class="logo-name" style="margin-top: 8px; text-align: left;">Business Development Group
+                        </p>
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="/HTML/products.html" class="nav-link active">Products</a>
+                        </li>
+                        <li class="nav-item"><a href="/HTML/solutions.html" class="nav-link">Solutions</a></li>
+                        <li class="nav-item"><a href="/HTML/support.html" class="nav-link">Support</a></li>
+                        <li class="nav-item"><a href="/HTML/about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="/HTML/contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Products Section -->
+    <main class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>VEICHI Products</h2>
+                <p>Comprehensive range of industrial automation solutions</p>
+            </div>
+
+            <!-- Product Search Bar -->
+            <div class="product-search-bar">
+                <input class="productSearchInput" type="text" id="productSearchInput" placeholder="Search products...">
+                <button id="productSearchBtn">Search</button>
+            </div>
+            <!-- Product Categories Filter -->
+            <div class="product-categories">
+                <div class="category-filters">
+                    <button class="filter-btn active" data-category="all">All Categories</button>
+                    <button class="filter-btn" data-category="drive-control">Drive & Control</button>
+                    <button class="filter-btn" data-category="industrial-robot">Industrial Robot</button>
+                    <button class="filter-btn" data-category="renewable-energy">Renewable Energy</button>
+                    <button class="filter-btn" data-category="industry-specific">Industry-specific Drive</button>
+                </div>
+            </div>
+
+            <!-- Products by Category -->
+            <div class="products-container">
+
+                <!-- Drive & Control Category -->
+                <div class="category-section" data-category="drive-control">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Drive & Control</h3>
+                            <p>Advanced frequency inverters and servo drives for precise motor control and automation
+                                applications.</p>
+                        </div>
+                        <div class="category-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="category-products">
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC70.jpg" alt="AC70 Series Frequency Inverter">
+                                    <div class="product-badge">Low Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC70 Series Variable Frequency Drive - AC Drive</h4>
+                                    <p class="product-description">The AC70 series general-purpose ac drive adopts an
+                                        open-loop vector algorithm and modular design to realize high-performance and
+                                        high-precision motor drive control. The product also has an independent air
+                                        duct, which can effectively prevent dust from entering the circuit board. At the
+                                        same time, the thickened three anti-paint protection makes it more
+                                        environmentally adaptable.</p>
+                                    <ul class="product-features">
+                                        <li>Wide voltage range: allowable voltage fluctuation range is ±15%.</li>
+                                        <li>High torque response speed, 20ms in OLV without PG.</li>
+                                        <li>High torque control accuracy in OLV without PG.</li>
+                                        <li>Compact structure design, high durability and high adaptability to
+                                            environment.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('AC70-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac70-vfd-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC310.jpg" alt="AC310 Series Variable Frequency Drive - AC Drive">
+                                    <div class="product-badge">Low Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC310 Series Variable Frequency Drive - AC Drive</h4>
+                                    <p class="product-description">VEICHI AC310 series AC drive is a high-performance
+                                        vector controller that is a continuation of the AC300 hardware structure design
+                                        concept by VEICHI, retains the characteristics of the new generation of VEICHI
+                                        products, and breaks through innovation in functional performance. It not only
+                                        adopts the international leading field-oriented vector control technology, but
+                                        also enriches the control methods of various forms of load such as
+                                        voltage-frequency separation EPS power supply on the basis of compatible
+                                        asynchronous and synchronous motor control. Under the premise of ensuring
+                                        product high performance and high reliability, rationally layout parts, maintain
+                                        product book-style narrow body design, pay attention to product ease of use and
+                                        industry-specific design, and better solve customers' product selection
+                                        troubles. It is equipped with abundant expansion ports and a variety of
+                                        expansion accessories to achieve the characteristics of high performance, high
+                                        reliability, high power density and high applicability.</p>
+                                    <ul class="product-features">
+                                        <li>AC310 series AC drive adopts magnetic field oriented vector control
+                                            technology compatible with synchronous and asynchronous motor control.</li>
+                                        <li>Under the premise of high performance and high reliability, the components
+                                            are reasonably laid out to realize the book-type narrow body design, saving
+                                            the installation space.</li>
+                                        <li>Strengthen the customer's ease of use and industry professional design,
+                                            equipped with a wealth of expansion interfaces, and new expansion
+                                            accessories.</li>
+                                        <li>High performance, high reliability, high power density, high applicability.
+                                        </li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('SD600-Servo')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac310-vfd-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC10.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Low Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC10 Series Variable Frequency Drive - AC Drive</h4>
+                                    <p class="product-description">AC10 series frequency drive is a product developed on
+                                        the latest technology platform of VEICHI. AC10 products are based on the user's
+                                        market demand for miniaturization, high reliability and high cost performance.
+                                        As a narrow-body VFD, AC10 has convenient way of installation, small size, low
+                                        temperature rise, high protection, strong software performance and many other
+                                        advantages. AC10 development relies on advanced PLM R&D management system to
+                                        ensure that the hardware, software, structure and test process are
+                                        three-dimensional, systematic and can be developed during the development
+                                        process. Traceability, constant scrutiny in every detail ensures strict rigor
+                                        and scientific spirit (T3 VFDs only support vector control).</p>
+                                    <ul class="product-features">
+                                        <li>Smart and compact, with a narrow book design.</li>
+                                        <li>Temperature resistance, no derating in 50℃ environments.</li>
+                                        <li>Support a variety of installation methods.</li>
+                                        <li>Compatible with asynchronous/synchronous motors with high-performance vector
+                                            control.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac10-vfd-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC600.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Low Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC600 Series High-performance Drive</h4>
+                                    <p class="product-description">In line with the global strategy, the AC600 series
+                                        meets the international mainstream certifications like CE/UL and employs a full
+                                        topology drive architecture for asynchronous motors (IM), synchronous motors
+                                        (SM) and synchronous reluctance motors with integrated adaptive vector control
+                                        algorithms.</p>
+                                    <ul class="product-features">
+                                        <li>Synchronous, asynchronous and reluctance motor driving compilation.</li>
+                                        <li>Internal and external 24V control power supply application.</li>
+                                        <li>Removable cool keypads Easy operation.</li>
+                                        <li>Book-style narrow frame design with high power density.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac600-high-performance-general-ac-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC01.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Low Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC01 Series Network AC Drive</h4>
+                                    <p class="product-description">Based on Veichi's low-voltage AC series drive system,
+                                        AC01 series drives with compactness and intelligence, is developed to meet the
+                                        market demand for lower volume and higher performance/price ratio. The network
+                                        port can support the expansion of the built-in keyboard, and it can also support
+                                        the AC310/AC10 external keyboard.
+                                        This series of products feature narrow but highly reliable book-like structure
+                                        which is inherited from the previous products and durability in its parts.
+                                        Improvements in fully automated production processes and more circuit-integrated
+                                        designs have been made for cost reductions and increased profitability for our
+                                        customers.
+                                        The AC01 series of network AC drives, on VEICHI's advanced PLM R&D management
+                                        system, stands out with its lightweight design and a suite of powerful features,
+                                        being a catalyst for enhancing lean production standards for customers
+                                        throughout the industrial chain, from upstream to downstream.</p>
+                                    <ul class="product-features">
+                                        <li>Book-type structure Lighter.</li>
+                                        <li>Hidden wiring More convenient.</li>
+                                        <li>Side-by-side assembly Better heat dissipation.</li>
+                                        <li>Compatibility with multiple keyboards More flexible.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac01-network-type-ac-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC330.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Low Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC330 Special Frequency AC Drive for Synchronous Reluctance Motor</h4>
+                                    <p class="product-description">The AC330 series ac drive are further optimized on
+                                        the VEICHI AC310 product platform. Integrate the drive control concept of
+                                        synchronous reluctance motor and develop a new vector control algorithm. Made a
+                                        brand-new flux linkage observer. It has an excellent control effect in pure
+                                        synchronous reluctance motor and permanent magnet auxiliary synchronous
+                                        reluctance motor. At the same time, it is compatible with the control technology
+                                        of asynchronous motors and permanent magnet synchronous motors. On the basis of
+                                        ensuring the high reliability of the product, the software integration of the
+                                        product is further improved, and the troubles of customers in product selection
+                                        are better solved. With abundant expansion ports and comprehensive expansion
+                                        accessories, it ensures the high reliability, high stability, and high
+                                        adaptability of synchronous reluctance motor drive applications. VEICHI AC330
+                                        series ac drive provide customers with better drive services with a new and full
+                                        attitude. </p>
+                                    <ul class="product-features">
+                                        <li>Energy saving operation</li>
+                                        <li>Torque boost function</li>
+                                        <li>Auto-tuning capability</li>
+                                        <li>Fault protection system</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac330-special-frequency-ac-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC200.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Low Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC200 High Performance Vector Control AC Drive</h4>
+                                    <p class="product-description">While maintaining excellent performance and
+                                        functions, AC200 series products have been significantly improved in terms of
+                                        ease of use, maintainability, environmental protection, installation space, and
+                                        design standards from the perspective of customer applications.</p>
+                                    <ul class="product-features">
+                                        <li>Adopting high-performance vector control algorithm</li>
+                                        <li>Unique synchronous motor control algorithm
+                                        </li>
+                                        <li>Excellent impact load response capability
+                                        </li>
+                                        <li>Over-excitation function, no external braking resistor required
+                                        </li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac200-high-performance-vector-control-ac-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/ACP30.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Medium Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>ACP30 Medium Voltage AC Drive</h4>
+                                    <p class="product-description">ACP30 series medium voltage AC drive features
+                                        high-performance vector control for general purposes. Its NPC three-level
+                                        topology and two-and-four-quadrant capability can drive permanent magnet
+                                        synchronous motors, reluctance motors and asynchronous motors.</p>
+                                    <ul class="product-features">
+                                        <li>NPC three-level topology.</li>
+                                        <li>Multiple motor adaptability.</li>
+                                        <li>Standard CAN communication with multi-motor master-slave power balancing.
+                                        </li>
+                                        <li>Pole search for steady start on permanent magnet synchro-nous motor.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/acp30-medium-voltage-ac-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/ACH200.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Medium Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>ACH200 Series Medium Voltage AC Drive</h4>
+                                    <p class="product-description">ACH200 series products are the third generation of
+                                        high-performance high-voltage vector-type AC drive made by VEICHI Electric on
+                                        years of technical accumulation and in-depth market research and demand
+                                        analysis, which adopts mature power unit series technology, DSP+FPGA dual core
+                                        control, vector control algorithm, to deliver high control accuracy, fast
+                                        dynamic response, large low frequency output torque etc. It is widely used in
+                                        fans, pumps, compressors, belt machines, ball millscrushers and other load
+                                        occasions, providing the drive core for energy saving and emission reduction to
+                                        meet the diversified needs of industrial enterprises.</p>
+                                    <ul class="product-features">
+                                        <li>High-performance control platform.</li>
+                                        <li>Start with high torque and low frequency.</li>
+                                        <li>Excellent low frequency control performance.</li>
+                                        <li>Stall protection for full frequency.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ach200-vfd-drive.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/ACH100.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Medium Voltage Drives</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>ACH100 Medium Voltage Inverter</h4>
+                                    <p class="product-description">VEICHI ACH100 series medium voltage inverter,
+                                        featuring long-term stable operation, precise control, easy maintenance, high
+                                        efficiency, simple operation and more advantages, effectively improves the
+                                        running performance of industrial motors, pumps, fans and etc. By using ACH100,
+                                        it can bring you a lot of benefits such as decreasing system maintenance cost,
+                                        increasing productivity and more.</p>
+                                    <ul class="product-features">
+                                        <li>Well-known as perfect harmony inverter in electrical industry.</li>
+                                        <li>Running with stable performance, high efficiency and high precision control.
+                                        </li>
+                                        <li>Adopts DSP+FPGA control method which ensures high data processing speed and
+                                            logical operation speed.</li>
+                                        <li>Enhance your productivity and competitiveness.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ach100-inverter.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC810.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Multi-motor Drive Inverter</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC810 Series Standard AC Multidrive</h4>
+                                    <p class="product-description">AC810 series are high-performance, high-end AC drive
+                                        manufactured by Veichi Electric on years of technical accumulation and in-depth
+                                        market research & demand analysis. Features like favorable control performance
+                                        and flexible networking and expansion, modular design and common DC bus
+                                        solution, safety and stability etc., all together guarantee solid drive core of
+                                        energy saving and emission reduction, and meet the diversified needs on
+                                        frequency conversion functions for industrial enterprises.</p>
+                                    <ul class="product-features">
+                                        <li>Flexible networking and extensions.</li>
+                                        <li>Modular design.</li>
+                                        <li>Common DC busbar.</li>
+                                        <li>Bus extension implemented on different models.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac810-standard-ac-drive-for-multi-motors.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC800.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Multi-motor Drive Inverter
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC800 Series Engineering AC drive for Multi-motors</h4>
+                                    <p class="product-description">AC800 series engineering ac drive for multi-motors is
+                                        a high-performance, high-end inverter created by VEICHI after years of technical
+                                        accumulation, in-depth market research, and demand analysis. It has excellent
+                                        control performance, modular design, a common DC bus scheme, convenient and
+                                        quick debugging tools, and abundant expansion interfaces. Satisfy all customer
+                                        needs, multiple fault handling and protection methods, safety, and stability.
+                                        Provide the driving core for energy saving and emission reduction of
+                                        enterprises, and meet the diversified inverter function requirements of
+                                        industrial enterprises.</p>
+                                    <ul class="product-features">
+                                        <li>Excellent control performance</li>
+                                        <li>Convenient and fast debugging tools</li>
+                                        <li>Multiple fault protection methods</li>
+                                        <li>Rich extension interfaces</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac800-series-engineering-multi-drive-inverter.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/AC830.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">Four-quadrant Inverter</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>AC830 Series Four-quadrant Inverter</h4>
+                                    <p class="product-description">AC830 series four-quadrant inverter cabinet belongs
+                                        to VEICHI's four-quadrant frequency conversion speed regulation product
+                                        technology platform. It adopts ARM+FPGA dual control architecture,
+                                        ultra-efficient and energy-saving drive. The AFE active rectification feedback
+                                        scheme is adopted to effectively reduce the harmonic content on the grid side.
+                                        Perfect without harmonics, full drive and full control, compatible with the
+                                        drive control of asynchronous motors, synchronous motors, and high-speed motors.
+                                    </p>
+                                    <ul class="product-features">
+                                        <li>High-performance control platform</li>
+                                        <li>Suitable for various types of loads</li>
+                                        <li>Excellent four-quadrant feedback capability</li>
+                                        <li>High precision and fast response</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ac830-four-quadrant-inverter.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/BU30.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">VFD Accessories</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>BU30 Series Brake Unit</h4>
+                                    <p class="product-description">BU30 series brake unit is mainly used in large
+                                        mechanical load occasions and occasions which require fast braking speed. It can
+                                        consume the motor generated regenerative energy or feed it back to current. This
+                                        product has a reliable quality, wide range of applications, modular structure
+                                        and other advantages.</p>
+                                    <ul class="product-features">
+                                        <li>User-friendly with easy installation.</li>
+                                        <li>Designed with complete protection functions.</li>
+                                        <li>Featuring fast braking speed.</li>
+                                        <li>Reliable quality and competitive price.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/bu30-series-brake-unit.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/output-filter-reactor.jpg" alt="VFD Series Drive">
+                                    <div class="product-badge">VFD Accessories</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>Output Filter and Reactor</h4>
+                                    <p class="product-description">The main function is to compensate for the effect of
+                                        charging and discharging of the coupling capacitor when the motor is running on
+                                        long cables to avoid drive over-current. It has two types: iron core reactor and
+                                        ferrite reactor, which are suitable for different carrier frequency ranges. By
+                                        increasing the cable distance from the drive to the motor, the output reactor
+                                        effectively suppresses the instantaneous high voltage generated when the IGBT
+                                        module is switched on and off, and reduces the adverse effect of this voltage on
+                                        the cable insulation and the motor. At the same time, use thick or unshielded
+                                        cables can also enhance the insulation strength.</p>
+                                    <ul class="product-features">
+                                        <li>Shielded cables.</li>
+                                        <li>Lowered carrier.</li>
+                                        <li>Output reactor.</li>
+                                        <li>Separate drive and motor.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VFD-Series')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/output-filter-reactor.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Industrial Robot Category -->
+                <div class="category-section" data-category="industrial-robot">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Industrial Robot</h3>
+                            <p>Advanced robotic controllers and collaborative robots for automated manufacturing
+                                processes.</p>
+                        </div>
+                        <div class="category-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="category-products">
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/VC-TKB1010.jpg" alt="VR6 Robot Controller">
+                                    <div class="product-badge">Six Axis Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TKB1010 Series 1kg 370mm Six Axis Robot</h4>
+                                    <p class="product-description">Engineered for reliability and adaptability, VEICHI
+                                        VC-TKB1010 series six axis robot is your go-to solution for enhancing
+                                        productivity on the factory floor. Experience the future of automation with our
+                                        advanced robotic technology.</p>
+                                    <ul class="product-features">
+                                        <li>6-axis control capability</li>
+                                        <li>Payload: 1kg.</li>
+                                        <li>Position Repeatability ±0.01mm</li>
+                                        <li>Application: Welding, punch press, hardware polishing and material handling.
+                                        </li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-tkb1010-six-axis-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TKB1210.jpg" alt="VR6 Robot Controller">
+                                    <div class="product-badge">Six Axis Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TKB1210 Series 7kg 960mm Six Axis Robot</h4>
+                                    <p class="product-description">Engineered for reliability and adaptability, VEICHI
+                                        VC-TKB1210 series six axis robot is your go-to solution for enhancing
+                                        productivity on the factory floor. Experience the future of automation with our
+                                        advanced robotic technology.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 7kg.</li>
+                                        <li>Arm Reach: 960mm.</li>
+                                        <li>Protection Level IP54/IP67(5&6 Axes Optional)</li>
+                                        <li>Application: Welding, punch press, hardware polishing and material handling.
+                                        </li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-tkb1210-six-axis-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TKB460.jpg" alt="VR6 Robot Controller">
+                                    <div class="product-badge">Four Axis Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TKB460 Series 30kg 1840mm Four Axis Robot</h4>
+                                    <p class="product-description">Advanced robot controller for 6-axis industrial
+                                        robots with integrated safety features.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 30kg.</li>
+                                        <li>Arm Reach: 1840mm.</li>
+                                        <li>Vertical Multi-jointed Series Structural form</li>
+                                        <li>Application: Welding, punch press, hardware polishing and material handling.
+                                        </li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-tkb460-for-axis-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TKB660.jpg" alt="VR6 Robot Controller">
+                                    <div class="product-badge">Four Axis Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TKB660 Series 180kg 3200mm Four Axis Robot</h4>
+                                    <p class="product-description">Engineered for reliability and adaptability, VEICHI
+                                        VC-TKB660 series four axis robot is your go-to solution for enhancing
+                                        productivity on the factory floor. Experience the future of automation with our
+                                        advanced robotic technology.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 180kg.</li>
+                                        <li>Arm Reach: 3200mm.</li>
+                                        <li>Application: Welding, punch press, hardware polishing and material handling.
+                                        </li>
+                                        <li>Protection Level is IP54</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-tkb660-four-axis-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/VCG100.jpg" alt="VCG100-700 Series 10kg 700mm Scara Robot">
+                                    <div class="product-badge">Scara Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VCG100-700 Series 10kg 700mm Scara Robot</h4>
+                                    <p class="product-description">VEICHI VCG100-700 series scara robot is a
+                                        high-performance industrial automation robot. Designed to enhance production
+                                        efficiency and flexibility, this robot is ideal for electronic assembly, small
+                                        parts handling, and other automated applications requiring accurate control.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 10kg.</li>
+                                        <li>Arm Reach: 700mm.</li>
+                                        <li>Application: Welding and stamping.</li>
+                                        <li>Protection Level: IP40</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vcg100-700-scara-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/VCH100.jpg"
+                                        alt="VCH100-800-900-1000 Series 10kg 800/900/1000mm Scara Robot">
+                                    <div class="product-badge">Scara Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VCH100-800-900-1000 Series 10kg 800/900/1000mm Scara Robotr</h4>
+                                    <p class="product-description">VEICHI VCH100-800-900-1000 series scara robot is a
+                                        high-performance industrial automation robot. Designed to enhance production
+                                        efficiency and flexibility, this robot is ideal for electronic assembly, small
+                                        parts handling, and other automated applications requiring accurate control.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 10kg.</li>
+                                        <li>Arm Reach: 800/900/1000mm.</li>
+                                        <li>Application: Welding and stamping.</li>
+                                        <li>Protection Level: IP40</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vch100-800-900-1000-scara-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TCR030.jpg" alt="VC-TCR030 Series 3kg 585mm Collaborative Robot">
+                                    <div class="product-badge">Collaborative Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TCR030 Series 3kg 585mm Collaborative Robot</h4>
+                                    <p class="product-description">The VEICHI VC-TCR050 series collaborative robot is an
+                                        advanced industrial automation robot, designed for heavy-duty tasks. This
+                                        collaborative robot is an excellent choice for applications that demand both
+                                        strength and reach in an automated environment.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 3kg.</li>
+                                        <li>Arm Reach: 585mm.</li>
+                                        <li>Application: Welding, stamping, hardware polishing and transport.</li>
+                                        <li>User Distribution: Single-phase AC220V-10%~+10%</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-tcr030-collaborative-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TCR300.jpg"
+                                        alt="VC-TCR300 Series 30kg 1800mm Collaborative Robot">
+                                    <div class="product-badge">Collaborative Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TCR300 Series 30kg 1800mm Collaborative Robot</h4>
+                                    <p class="product-description">VEICHI VC-TCR300 series collaborative robot is an
+                                        advanced industrial automation robot, designed for heavy-duty tasks. This
+                                        collaborative robot is an excellent choice for applications that demand both
+                                        strength and reach in an automated environment.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 30kg.</li>
+                                        <li>Arm Reach: 1800mm.</li>
+                                        <li>Application: Welding, stamping, hardware polishing and transport.</li>
+                                        <li>Programming with Drag teaching and graphic pages</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-tcr300-collaborative-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TKB1440.jpg" alt="VC-TKB1440 Series 10kg 1455mm Welding Robot">
+                                    <div class="product-badge">Welding Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TKB1440 Series 10kg 1455mm Welding Robot</h4>
+                                    <p class="product-description">Engineered for reliability and adaptability, VEICHI
+                                        VC-TKB1440 series welding robot is your go-to solution for enhancing
+                                        productivity on the factory floor. Experience the future of automation with our
+                                        advanced robotic technology.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 10kg.</li>
+                                        <li>Arm Reach: 1455mm.</li>
+                                        <li>Safety-rated inputs/outputs</li>
+                                        <li>Application: Welding, hardware polishing and material handling.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-tkb1440-welding-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TKB2030.jpg" alt="VC-TKB2030 Series 6kg 2078mm Welding Robot">
+                                    <div class="product-badge">Welding Robot</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TKB2030 Series 6kg 2078mm Welding Robot</h4>
+                                    <p class="product-description">Engineered for reliability and adaptability, VEICHI
+                                        VC-TKB2030 series welding robot is your go-to solution for enhancing
+                                        productivity on the factory floor. Experience the future of automation with our
+                                        advanced robotic technology.</p>
+                                    <ul class="product-features">
+                                        <li>Payload: 6kg.</li>
+                                        <li>Arm Reach: 2078mm.</li>
+                                        <li>Application: Welding, hardware polishing and material handling.</li>
+                                        <li>Protection Level: IP54</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR6-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-tkb2030-welding-robot.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TRC5.jpg" alt="VC-TRC5-B06 Series Control Cabinet">
+                                    <div class="product-badge">Robot System Equipment</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TRC5-B06 Series Control Cabinet</h4>
+                                    <p class="product-description">VEICHI's new generation of robot control cabinet
+                                        provides users with a comprehensive industrial robot electrical control
+                                        solution, which is applied to 4/6-axis robots. It typically contains the main
+                                        control unit for servo control, communication ports, power supply, and
+                                        interfaces for various peripherals. The control cabinet is designed to ensure
+                                        the robot's precise movements and is equipped with multiple I/O interfaces for
+                                        connectivity with other devices and systems.</p>
+                                    <ul class="product-features">
+                                        <li>Space-saving./li>
+                                        <li>Applied to 4/6-axis robots.</li>
+                                        <li>Equipped with various interfaces.</li>
+                                        <li>Standard IO: Input: 18 channels (NPN);Output: 10 channels (relay)
+                                            Welding: Input: 6 channels (NPN) / Output: 10 channels (Relay); 2 AO Analog
+                                            Output</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VC10-Cobot')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-trc5-b06-control-cabinet.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/TRP04.jpg" alt="VC-TRP04 Series Teach Pendant">
+                                    <div class="product-badge">Robot System Equipment</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VC-TRP04 Series Teach Pendant</h4>
+                                    <p class="product-description">Robotic teach pendants are portable, handheld
+                                        controllers that facilitate the manual guidance and programming of industrial
+                                        robots. They enable operators to direct the robot's movements and save the
+                                        motion patterns into the device's memory.
+                                        These industrial teach pendants are equipped with a joystick or buttons,
+                                        enabling you to move the robotic arm throughout its full motion capabilities. By
+                                        positioning the arm accurately and recording these positions, you can establish
+                                        automated motion sequences.</p>
+                                    <ul class="product-features">
+                                        <li>High-performance processor.</li>
+                                        <li>Diverse Communication Interfaces.</li>
+                                        <li>Remote Monitoring and Debugging.</li>
+                                        <li>Resistive Touch Screen.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('VR12-Controller')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vc-trp04-teach-pendant.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="see-all">
+                            <a target="_blank" rel="stylesheet" href="https://www.veichi.com/product/"> See all
+                                products</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Renewable Energy Category -->
+                <div class="category-section" data-category="renewable-energy">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-solar-panel"></i>
+                        </div>
+                        <div class="category-info">
+                            <h3>Renewable Energy</h3>
+                            <p>Solar and wind energy solutions for sustainable power generation and water management
+                                systems.</p>
+                        </div>
+                        <div class="category-toggle">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="category-products">
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/VHT.jpg" alt="VHT Series 10kW-20kW Hybrid Solar Inverter">
+                                    <div class="product-badge eco-friendly">Solar Inverter</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VHT Series 10kW-20kW Hybrid Solar Inverter</h4>
+                                    <p class="product-description">VHT Series 10kW-20kW hybrid solar inverter is
+                                        suitable for the household photovoltaic energy storage system. DC power
+                                        generated by solar panels is stored in the battery through the inverter. When
+                                        electricity is needed, it is first supplied by solar panels. If the light
+                                        intensity cannot support the operation of solar panels, the inverter will
+                                        convert the DC power of the battery into a single-phase power for home load. If
+                                        the battery power is not enough, it can be quickly switched to power grid to
+                                        supply power.
+                                        VHT Series 10kW-20kW hybrid solar inverter has a colored LCD and a variety of
+                                        communication functions. It can be remotely operated through the mobile phone
+                                        APP, which is convenient and fast. It can output pure sine wave, run stable and
+                                        reliable. Replaceable fan design enables customers to maintain safety and
+                                        convenience.</p>
+                                    <ul class="product-features">
+                                        <li>Optimal Power &Storage.</li>
+                                        <li>Convenient Installation &Operation.</li>
+                                        <li>Strong Load &Back-up.</li>
+                                        <li>Flexible Design &Use.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('SP200-Solar')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vht-10kw-20kw-hybrid-solar-inverter.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/VSS.jpg" alt="VSS 3-6K-M2 Series On-grid Solar Inverter">
+                                    <div class="product-badge eco-friendly">Solar Inverter</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VSS 3-6K-M2 Series On-grid Solar Inverter</h4>
+                                    <p class="product-description">The VSS-M2 series on-grid solar inverter is a
+                                        multifunctional and high-efficiency energy conversion solution designed for
+                                        residential, commercial, and industrial applications. Combining core advantages
+                                        such as high compatibility, intelligent monitoring, easy installation, and
+                                        robust protection, it ensures energy efficiency and safety. By eliminating
+                                        reliance on costly battery storage systems, this solution significantly reduces
+                                        initial investment and maintenance expenses. Its optimized design minimizes
+                                        energy losses during conversion, achieving performance metrics that exceed
+                                        industry standards. Fully compliant with grid regulations in most countries, the
+                                        VSS-M2 guarantees seamless integration and stable operation across diverse
+                                        energy infrastructures.</p>
+                                    <ul class="product-features">
+                                        <li>98.6% max efficiency, 2 MPPTs design with precise MPPT algorithm.</li>
+                                        <li>IP66 ingress protection, efficient heat dissipation, uvioresistant,
+                                            corrosion resistant.</li>
+                                        <li>Wifi, 4G, GPRS, Bluetooth, RS485, remote monitoring.</li>
+                                        <li>AC output voltage 180V to 300V adjustable, compatible with the grids of most
+                                            countries.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('WT500-Wind')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vss-3-6k-m2-on-grid-solar-inverter.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/CTS100.jpg" alt="CTS100 Cell Test Equipment">
+                                    <div class="product-badge eco-friendly">Battery Test System</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>CTS100 Cell Test Equipment</h4>
+                                    <p class="product-description">CTS100 is a professional charge/discharge test
+                                        equipment developed for high current/high power performance testing. It is
+                                        suitable for performance testing and evaluation of high-capacity Li-ion cells
+                                        and Li-ion capacitors, cycle life veriﬁcation, and product model selection.
+                                        Adopted with the latest technique, CTS 100 features high energy conversion
+                                        eﬃciency, high voltage and current accuracy, fast current dynamic response,
+                                        multi-current range automatic staging, high power density, and high safety
+                                        factor in actual use. The CTS100 is characterized by high energy conversion
+                                        eﬃciency, high voltage and current accuracy, fast current dynamic response,
+                                        automatic multi-current range current staging, high power density, and high
+                                        safety factor.
+                                        High current cycle life test requires high energy conversion eﬃciency of the
+                                        test equipment, thus CTS100 series products are designed with lower energy cost
+                                        and at the same time less heat generation so that the internal system including
+                                        the elements for accuracy control can work under a relatively low temperature to
+                                        eﬀectively avoid temperature excursion of key elements’ parameters and
+                                        short-ened service life caused by temperature variation.</p>
+                                    <ul class="product-features">
+                                        <li>High voltage accuracy±0.03% of F.S., high current accuracy±0.03% of F.S.;
+                                        </li>
+                                        <li>Multi-current range 300A/200A/50A ±0.03%;</li>
+                                        <li>Fast current response less than 3ms;</li>
+                                        <li>Discharge energy recovery efficiency reaching 80%;</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('HE300-Hybrid')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/cts100.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/ev-controller.jpg" alt="CTS100 Cell Test Equipment">
+                                    <div class="product-badge eco-friendly">Battery Test System</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>EV Electric Vehicle Motor Controller</h4>
+                                    <p class="product-description">EV Series Motor Controller has the features of
+                                        safety, stability, high efficiency, low noise and easy installation. The series
+                                        of controllers adopts the international leading vector control technology to
+                                        ensure that the motor can run smoothly and safely in different modes, even when
+                                        the encoder is disconnected.</p>
+                                    <ul class="product-features">
+                                        <li>Improve vehicle endurance by energy feedback technology
+                                        </li>
+                                        <li>Slope anti-rolling function for enhancing safety</li>
+                                        <li>Support AM/PMSM/BLDC motor</li>
+                                        <li>Support IP66 & CAN 2.0 Bus Communication</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('HE300-Hybrid')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/ev-series-electric-vehicle-motor-controller.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/SIS4.jpg"
+                                        alt="SIS4 Series 1kW/1.5kW/2kW/3.2kW Off Grid Solar Inverter">
+                                    <div class="product-badge eco-friendly">Solar Inverter</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>SIS4 Series 1kW/1.5kW/2kW/3.2kW Off Grid Solar Inverter</h4>
+                                    <p class="product-description">SIS4 series 1kW/1.5kW/2kW/3.2kW off grid solar
+                                        inverter is suitable for the household photovoltaic energy storage system. DC
+                                        power generated by solar panels is stored in the battery through the inverter.
+                                        When electricity is needed, it is first supplied by solar panels. If the light
+                                        intensity cannot support the operation of solar panels, the inverter will
+                                        convert the DC power of the battery into a single-phase power for home load. If
+                                        the battery power is not enough, it can be quickly switched to power grid to
+                                        supply power.
+                                        SIS4 series 1kW/1.5kW/2kW/3.2kW off grid solar inverter has a colored LCD and a
+                                        variety of communication functions. It can be remotely operated through the
+                                        mobile phone APP, which is convenient and fast. It can output pure sine wave,
+                                        run stable and reliable. Replaceable fan design enables customers to maintain
+                                        safety and convenience.</p>
+                                    <ul class="product-features">
+                                        <li>Pure sine wave solar inverter.
+                                        </li>
+                                        <li>WIFI & GPRS available for IOS and Android.</li>
+                                        <li>Built-in 80A MPPT solar charger.</li>
+                                        <li>Smart battery charge design to optimize battery life.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('HE300-Hybrid')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/sis4-off-grid-solar-inverter.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-card">
+                                <div class="product-image">
+                                    <img src="/Images/VST.jpg" alt="VST Series 40kW-60kW On-grid Solar Inverter">
+                                    <div class="product-badge eco-friendly">Solar Inverter</div>
+                                </div>
+                                <div class="product-info">
+                                    <h4>VST Series 40kW-60kW On-grid Solar Inverter</h4>
+                                    <p class="product-description">The VST series on grid solar inverter is designed for
+                                        high-performance solar energy systems, featuring a robust ​​60kW~90kW maximum PV
+                                        power​​ and a ​​wide MPPT voltage range​​, enabling efficient energy harvesting
+                                        under diverse environmental conditions. Its ​​high efficiency and ​​wide grid
+                                        frequency range make it ideal for commercial and industrial applications, such
+                                        as rooftop solar installations and systems requiring stable grid
+                                        synchronization. Its advanced design supports ​​global grid standards, enabling
+                                        deployment in diverse regions.</p>
+                                    <ul class="product-features">
+                                        <li>98.8% max efficiency.
+                                        </li>
+                                        <li>IP66 ingress protection.</li>
+                                        <li>Wifi, 4G, GPRS, Bluetooth, RS485.</li>
+                                        <li>312V to 520V adjustable AC output voltage.</li>
+                                    </ul>
+                                    <div class="product-actions">
+                                        <button class="btn-order" onclick="orderProduct('HE300-Hybrid')">
+                                            <i class="fas fa-shopping-cart"></i> Order Now
+                                        </button>
+                                        <button class="btn-details"
+                                            onclick="window.location.href='https://www.veichi.com/product/vst-40kw-60kw-on-grid-solar-inverter.html';">
+                                            <i class="fas fa-info-circle"></i> Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="see-all">
+                            <a target="_blank" rel="stylesheet" href="https://www.veichi.com/product/"> See all
+                                products</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Industry-specific Drive Category -->
+            <div class="category-section" data-category="industry-specific">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Industry-specific Drive</h3>
+                        <p>Specialized drive systems tailored for specific industrial applications and requirements.
+                        </p>
+                    </div>
+                    <div class="category-toggle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="category-products">
+                    <div class="product-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/Images/VHP800.jpg" alt="VHP800-E71 Series IGBT Power Cabinet">
+                                <div class="product-badge eco-friendly">Hydrogen Production</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>VHP800-E71 Series IGBT Power Cabinet</h4>
+                                <p class="product-description">VHP800-E71 series IGBT power cabinet integrates up to 5
+                                    IGBT rectiﬁer module units in parallel, and independently controls voltage, current,
+                                    or power with high accuracy and speed. The output parameters can be smoothly varied
+                                    from zero to maximum without steps, suitable for alkaline and PEM electrolysis
+                                    cells.</p>
+                                <ul class="product-features">
+                                    <li>Flexible combination.</li>
+                                    <li>Comprehensive protection.</li>
+                                    <li>High control accuracy.</li>
+                                    <li>Universal solutions.</li>
+                                </ul>
+                                <div class="product-actions">
+                                    <button class="btn-order" onclick="orderProduct('CH100-Crane')">
+                                        <i class="fas fa-shopping-cart"></i> Order Now
+                                    </button>
+                                    <button class="btn-details"
+                                        onclick="window.location.href='https://www.veichi.com/product/vhp800-e71-igbt-power-cabinet.html';">
+                                        <i class="fas fa-info-circle"></i> Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/Images/HX1.jpg" alt="CH100 Crane & Hoist Drive">
+                                <div class="product-badge eco-friendly">Hydrogen Production</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>HX1 Series Alkaline Electrolyzer</h4>
+                                <p class="product-description">CM Xiageng's next-generation products features innovative
+                                    materials, structures, and production techniques. Starting with fundamental material
+                                    chemistry research, the company innovates core components such as electrodes,
+                                    diaphragms, and the structure like diffusion layers for hydrogen production via
+                                    alkaline water electrolysis. Addressing the industrial challenges of gas-liquid
+                                    separation and power system compatibility, it significantly improves equipment
+                                    performance and stability. This innovative approach results in this advanced
+                                    hydrogen production equipment characterized by high current density, low energy
+                                    consumption, and quick cold-start capability, providing performance on par with PEM
+                                    systems but at a more competitive cost compared to market peers.</p>
+                                <ul class="product-features">
+                                    <li>Low Cost.</li>
+                                    <li>Long Life.</li>
+                                    <li>Stable & Safe Operation.</li>
+                                    <li>Wide Power Range.</li>
+                                </ul>
+                                <div class="product-actions">
+                                    <button class="btn-order" onclick="orderProduct('CH100-Crane')">
+                                        <i class="fas fa-shopping-cart"></i> Order Now
+                                    </button>
+                                    <button class="btn-details"
+                                        onclick="window.location.href='https://www.veichi.com/product/hx1-alkaline-electrolyzer.html';">
+                                        <i class="fas fa-info-circle"></i> Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/Images/AC70S.jpg" alt="AC70S Special Drive for Construction Elevator">
+                                <div class="product-badge eco-friendly">Construction Machinery</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>AC70S Special Drive for Construction Elevator</h4>
+                                <p class="product-description">A drive with a docking function specially designed for
+                                    the transformation of old elevators. Integrating frequency converter, brake module,
+                                    and status indicator, it is convenient for on-site maintenance of equipment and
+                                    minimizes the cost of frequency conversion transformation of construction elevator.
+                                </p>
+                                <ul class="product-features">
+                                    <li>No need to change the inverter parameters, as long as the wires are correctly
+                                        connected, it can operate normally after turning on the machine.</li>
+                                    <li>Accurate landing can be achieved at any speed;</li>
+                                    <li>The keyboard operator can display upper and lower limit, ascending and
+                                        descending signals, which is convenient for system maintenance;</li>
+                                    <li>Smooth operation, no impact, reduce the abrasion of the mechanical structure and
+                                        vulnerable parts;</li>
+                                </ul>
+                                <div class="product-actions">
+                                    <button class="btn-order" onclick="orderProduct('CH100-Crane')">
+                                        <i class="fas fa-shopping-cart"></i> Order Now
+                                    </button>
+                                    <button class="btn-details"
+                                        onclick="window.location.href='https://www.veichi.com/product/ac70s-special-driver-for-construction-elevator.html';">
+                                        <i class="fas fa-info-circle"></i> Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/Images/S100.jpg" alt="S100 Material Lifting Intelligent Control System">
+                                <div class="product-badge eco-friendly">Construction Machinery</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>S100 Material Lifting Intelligent Control System</h4>
+                                <p class="product-description">S100 is a special model developed for the intelligent
+                                    control system of cargo construction elevators, including VFD, HMI touch screen,
+                                    intelligent (unmanned) driving, humanoid detection, human-computer interaction,
+                                    intelligent diagnosis, wireless remote control, wireless video transmission,
+                                    automatic leveling, etc. Provide customers with a high-performance, complete
+                                    electrical control solutions for the material hoists.</p>
+                                <ul class="product-features">
+                                    <li>Intelligent driving, simple operation, and the automatic operation of the
+                                        freight elevator can be controlled through the bottom cage or the operating
+                                        suitcase.</li>
+                                    <li>Floor call function, with the functions of calling elevators and returning to
+                                        the base station.</li>
+                                    <li>Video monitoring function helps driver easily check the surrounding obstacles
+                                        and staff when operating.</li>
+                                    <li>Built-in AI humanoid detection can restrict the operation of freight elevator
+                                        when there is violation of carrying people.</li>
+                                </ul>
+                                <div class="product-actions">
+                                    <button class="btn-order" onclick="orderProduct('CH100-Crane')">
+                                        <i class="fas fa-shopping-cart"></i> Order Now
+                                    </button>
+                                    <button class="btn-details"
+                                        onclick="window.location.href='https://www.veichi.com/product/s100-material-lifting-intelligent-control-system.html';">
+                                        <i class="fas fa-info-circle"></i> Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/Images/CH310E.jpg" alt="CH310E Series Elevator Drive">
+                                <div class="product-badge eco-friendly">Elevator</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>CH310E Series Elevator Drive</h4>
+                                <p class="product-description">An elevator drive is a component of an elevator system
+                                    that controls the motion of the elevator car. It consists of an electric motor and a
+                                    drive controller, which work together to manage the speed, direction, and position
+                                    of the elevator car within the shaft. The drive system is critical for ensuring
+                                    smooth acceleration and deceleration, maintaining comfortable travel for passengers,
+                                    and stopping the elevator accurately at floor levels.
+                                    Modern elevator drives often use variable frequency drives (VFDs) or variable
+                                    voltage variable frequency (VVVF) drives. These technologies allow for precise
+                                    control of the motor's speed and torque, leading to improved efficiency, reduced
+                                    energy consumption, and enhanced ride comfort.
+                                    VEICHI CH310E Elevator Drive is used for gearless & geared applications. </p>
+                                <ul class="product-features">
+                                    <li>All series built-in dynamic braking unit.</li>
+                                    <li>All series support IM geared machine & PMSM gearless machine.</li>
+                                    <li>Anti-rollback function for PMSM gearless machine Super open phase detection
+                                        performance (within 200ms).</li>
+                                    <li>ATB function.</li>
+                                </ul>
+                                <div class="product-actions">
+                                    <button class="btn-order" onclick="orderProduct('TX300-Textile')">
+                                        <i class="fas fa-shopping-cart"></i> Order Now
+                                    </button>
+                                    <button class="btn-details"
+                                        onclick="window.location.href='https://www.veichi.com/product/ch310e-elevator-drive.html';">
+                                        <i class="fas fa-info-circle"></i> Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="/Images/EHS100.jpg" alt="EL400 Elevator Drive">
+                                <div class="product-badge eco-friendly">Hydraulic Servo</div>
+                            </div>
+                            <div class="product-info">
+                                <h4>EHS100 Integrated Hydraulic Servo</h4>
+                                <p class="product-description">EHS100 is a new generation integrated servo product that
+                                    combines control, power, and brakes in one. Simplify installation lines, reduce
+                                    bridges, wire slots, connectors, and line nodes, reduce equipment complexity,
+                                    increase space utilization, and increase installation efficiency by more than 5
+                                    times.</p>
+                                <ul class="product-features">
+                                    <li>Integrated control, power, brake function;</li>
+                                    <li>No need for self-learning, power on;</li>
+                                    <li>Designed for mechanical high frequency vibration;</li>
+                                    <li>Double independent air duct, IP56 fan;</li>
+                                </ul>
+                                <div class="product-actions">
+                                    <button class="btn-order" onclick="orderProduct('EL400-Elevator')">
+                                        <i class="fas fa-shopping-cart"></i> Order Now
+                                    </button>
+                                    <button class="btn-details"
+                                        onclick="window.location.href='https://www.veichi.com/product/ehs100-integrated-servo.html';">
+                                        <i class="fas fa-info-circle"></i> Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="see-all">
+                        <a target="_blank" rel="stylesheet" href="https://www.veichi.com/product/"> See all
+                            products</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </main>
+    <!-- Enhanced Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info Section -->
+                <div class="footer-section company-info">
+                    <div class="footer-logo">
+                        <div class="logo-container">
+                            <div class="logo-icon">
+                                <img src="/Images/Logo.jpg" alt="">
+                            </div>
+                            <div class="logo-text">
+                                <h3>Business Development Group</h3>
+                                <p>Authorized VEICHI Distributor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="company-description">
+                        Leading distributor of VEICHI industrial automation solutions with comprehensive
+                        technical support and service across Egypt and the MENA region.
+                    </p>
+                    <div class="founder-info">
+                        <div class="founder-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="founder-details">
+                            <h4>Founded by Ayman Hussein</h4>
+                            <p>Visionary leader in industrial automation</p>
+                        </div>
+                    </div>
+                    <div class="company-social">
+                        <a href="#" class="social-link linkedin" aria-label="BDG LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link facebook" aria-label="BDG Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link youtube" aria-label="BDG YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://wa.me/201055901888" class="social-link snapchat" aria-label="BDG Snapchat">
+                            <i class="fab fa-snapchat"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="/HTML/about.html">About BDG</a></li>
+                        <li><a href="/HTML/solutions.html">Our Solutions</a></li>
+                        <li><a href="/HTML/support.html">Technical Support</a></li>
+                        <li><a href="/HTML/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Section -->
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="/HTML/solutions.html">Industrial Automation</a></li>
+                        <li><a href="/HTML/solutions.html">Expert Consultation</a></li>
+                        <li><a href="/HTML/solutions.html">Installation & Setup</a></li>
+                        <li><a href="/HTML/solutions.html">Training Programs</a></li>
+                        <li><a href="/HTML/solutions.html">Maintenance Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter Section -->
+                <div class="footer-section newsletter-section">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to receive the latest VEICHI product updates and industry insights.</p>
+
+                    <div class="newsletter-form">
+                        <!-- Embedded Google Form -->
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSd2GVz5-tLS6WiUIf3CNTOEIlxqn8yk76JhMO-29Dp08WKn5g/viewform?embedded=true"
+                            width="100%" height="420" frameborder="0" marginheight="0" marginwidth="0"
+                            style="background: #fff; border-radius: 8px;">Loading…</iframe>
+                    </div>
+
+                    <div class="newsletter-benefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-bell"></i>
+                            <span>Product Updates</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Industry Insights</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Event Notifications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Developer Section -->
+            <div class="developer-section">
+                <div class="developer-content">
+                    <div class="developer-info">
+                        <div class="developer-avatar">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="developer-details">
+                            <h4>Website Development</h4>
+                            <p>Developed with love by <strong>Mohamed Negm</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="developer-social">
+                        <a href="https://www.linkedin.com/in/mohamed-negm-018317355/" class="dev-social-link linkedin"
+                            target="_blank" aria-label="Developer LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.facebook.com/mohamed.fawzynajm" class="dev-social-link facebook"
+                            target="_blank" aria-label="Developer Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://github.com/Mohamedfawzynegm" class="dev-social-link github" target="_blank"
+                            aria-label="Developer GitHub">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+
+                    <div class="developer-contact">
+                        <a class="dev-contact-btn" href="mailto:negm161208@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            Contact Developer
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        <p>&copy; 2025 Business Development Group (BDG). All rights reserved.</p>
+                        <p class="founder-credit">Founded & Owned by <strong>Ayman Hussein</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Order Modal -->
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Order Product</h2>
+            <form id="orderForm">
+                <div class="form-group">
+                    <label for="productName">Product:</label>
+                    <input type="text" id="productName" name="productName" readonly>
+                </div>
+                <div class="form-group">
+                    <label for="customerName">Name:</label>
+                    <input type="text" id="customerName" name="customerName" required>
+                </div>
+                <div class="form-group">
+                    <label for="customerEmail">Email:</label>
+                    <input type="email" id="customerEmail" name="customerEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="customerPhone">Phone:</label>
+                    <input type="tel" id="customerPhone" name="customerPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Requirements:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Submit Order Request</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/JS/products.js"></script>
+    <script src="/JS/go-up.js"></script>
+    <script src="/JS/footer.js"></script>
+</body>
+
+</html>
